@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/modifyback" android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <ImageView android:src="@drawable/modifycard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="38dp" android:layout_y="19dp" android:id="@+id/imamodifycard"></ImageView>
+    <TextView android:id="@+id/textTransdD" android:text="TextView" android:layout_width="196dp" android:layout_x="231dp" android:layout_y="77dp" android:layout_height="125dp"></TextView>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/delete" android:id="@+id/imadelete" android:layout_height="wrap_content" android:layout_x="64dp" android:layout_y="194dp"></ImageView>
+    <EditText android:id="@+id/editTextTtimes" android:layout_height="35dp" android:inputType="number" android:layout_width="94dp" android:textSize="12dp" android:layout_x="126dp" android:layout_y="205dp"></EditText>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:text="当前" android:layout_width="wrap_content" android:layout_x="159dp" android:layout_y="165dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textcurTimes" android:text="目标次数" android:layout_width="wrap_content" android:layout_x="140dp" android:layout_y="184dp"></TextView>
+    <TextView android:textColor="@android:color/black" android:textSize="18dp" android:layout_height="wrap_content" android:id="@+id/textWordD" android:text="TextView" android:layout_width="145dp" android:layout_x="263dp" android:layout_y="43dp"></TextView>
+    <TextView android:textSize="18dp" android:layout_height="wrap_content" android:id="@+id/textRightRate" android:text="正确率：" android:layout_x="234dp" android:layout_width="wrap_content" android:layout_y="210dp"></TextView>
+    
+</AbsoluteLayout>

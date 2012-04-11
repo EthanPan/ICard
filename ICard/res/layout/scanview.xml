@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background">
+    <ImageView android:src="@drawable/rightdirect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="433dp" android:layout_y="286dp" android:id="@+id/imarightdir"></ImageView>
+    <ImageView android:src="@drawable/leftdirect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="10dp" android:layout_y="286dp" android:id="@+id/imaleftdir"></ImageView>
+    <ImageView android:src="@drawable/scrollbarback" android:layout_width="wrap_content" android:id="@+id/imageView4" android:layout_height="wrap_content" android:layout_x="49dp" android:layout_y="293dp"></ImageView>
+    <ImageView android:src="@drawable/scrollbar" android:layout_height="wrap_content" android:layout_y="294dp" android:id="@+id/imascorller" android:layout_width="340dp" android:layout_x="65dp"></ImageView>
+    <ImageView android:src="@drawable/set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="440dp" android:layout_y="9dp" android:id="@+id/imaset"></ImageView>
+    <ImageView android:src="@drawable/data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="12dp" android:layout_y="11dp" android:id="@+id/imadata"></ImageView>
+    <ViewFlipper android:id="@+id/viewFlipper1" android:layout_width="wrap_content" android:layout_x="0dp" android:layout_y="52dp" android:layout_height="wrap_content">
+        <AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:src="@drawable/scancard" android:layout_height="wrap_content"></ImageView>
+            <TextView android:text="详细" android:id="@+id/textmodify1" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_x="150dp" android:layout_y="81dp"></TextView>
+            <TextView android:text="完成" android:id="@+id/textfinish" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_x="108dp" android:layout_y="145dp"></TextView>
+            <ProgressBar style="@android:style/Widget.ProgressBar.Horizontal" android:progress="50" android:layout_width="239dp" android:layout_x="150dp" android:id="@+id/progressBar1" android:layout_y="143dp" android:layout_height="wrap_content"
+            android:max="100"></ProgressBar>
+            <ImageView android:id="@+id/imashow1" android:layout_width="wrap_content" android:layout_x="362dp" android:src="@drawable/show" android:layout_y="74dp" android:layout_height="wrap_content"></ImageView>
+            <TextView android:textColor="@android:color/black" android:text="word" android:id="@+id/textword1" android:layout_height="37dp" android:layout_y="22dp" android:gravity="left" android:layout_width="130dp" android:layout_x="250dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textwordDetail1" android:layout_height="64dp" android:layout_width="141dp" android:layout_x="213dp" android:layout_y="73dp"></TextView>
+            <TextView android:gravity="center" android:textSize="19dp" android:layout_height="wrap_content" android:id="@+id/textCounter1" android:text="0" android:layout_width="28dp" android:textColor="@android:color/black" android:layout_x="157dp" android:layout_y="9dp"></TextView>
+        </AbsoluteLayout>
+        <AbsoluteLayout android:id="@+id/AbsoluteLayout02" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:src="@drawable/scancard" android:layout_height="wrap_content"></ImageView>
+            <TextView android:text="详细" android:id="@+id/textmodify2" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_x="150dp" android:layout_y="81dp"></TextView>
+            <TextView android:text="完成" android:id="@+id/textfinish" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_x="108dp" android:layout_y="145dp"></TextView>
+            <ProgressBar style="@android:style/Widget.ProgressBar.Horizontal" android:progress="50" android:layout_width="239dp" android:layout_x="150dp" android:id="@+id/ProgressBar2" android:layout_y="143dp" android:layout_height="wrap_content"></ProgressBar>
+            <ImageView android:id="@+id/imashow2" android:layout_width="wrap_content" android:layout_x="362dp" android:src="@drawable/show" android:layout_y="74dp" android:layout_height="wrap_content"></ImageView>
+            <TextView android:textColor="@android:color/black" android:text="word" android:id="@+id/textword2"  android:layout_height="37dp" android:layout_y="22dp" android:gravity="left" android:layout_width="130dp" android:layout_x="250dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textwordDetail2" android:layout_height="64dp" android:layout_width="141dp" android:layout_x="213dp" android:layout_y="73dp"></TextView>
+            <TextView android:gravity="center" android:textSize="19dp" android:layout_height="wrap_content" android:id="@+id/textCounter2" android:text="0" android:layout_width="28dp" android:textColor="@android:color/black" android:layout_x="157dp" android:layout_y="9dp"></TextView>
+		</AbsoluteLayout>
+    </ViewFlipper>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/updata" android:id="@+id/imaupdate" android:layout_height="wrap_content" android:layout_x="94dp" android:layout_y="15dp"></ImageView>
+    <ImageView android:layout_width="39dp" android:src="@drawable/wrong" android:id="@+id/imawrong" android:layout_height="34dp" android:visibility="visible" android:layout_x="201dp" android:layout_y="9dp"></ImageView>
+    <ImageView android:layout_width="38dp" android:src="@drawable/right" android:id="@+id/imaright" android:layout_height="39dp" android:visibility="visible" android:layout_x="265dp" android:layout_y="6dp"></ImageView>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/help" android:id="@+id/imahelp" android:layout_height="wrap_content" android:layout_x="403dp" android:layout_y="11dp"></ImageView>
+    
+</AbsoluteLayout>

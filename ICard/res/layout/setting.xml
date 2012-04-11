@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background">
+    <ImageView android:src="@drawable/setcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="34dp" android:layout_y="20dp" android:id="@+id/imasetcard"></ImageView>
+    <ListView android:fadingEdge="none"  android:scrollingCache="false"
+     android:id="@+id/listMain" android:layout_y="56dp" 
+     android:layout_height="190dp" android:layout_x="39dp"
+      android:layout_width="223dp" android:cacheColorHint="#00000000" >
+    </ListView>
+    <ToggleButton android:id="@+id/tb1" android:layout_height="wrap_content" android:text="ToggleButton" android:layout_width="wrap_content" android:layout_x="279dp" android:layout_y="111dp"></ToggleButton>
+    <TextView android:layout_height="wrap_content" android:id="@+id/dTextView" android:text="所有中文翻译 打开/关闭" android:layout_width="wrap_content" android:visibility="visible" android:layout_x="282dp" android:layout_y="88dp" android:textColor="@android:color/black"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:text="默认显示" android:layout_x="281dp" android:layout_width="wrap_content" android:layout_y="66dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="默认背诵目标" android:layout_width="wrap_content" android:textColor="@android:color/black" android:layout_x="283dp" android:layout_y="162dp"></TextView>
+    <EditText android:id="@+id/editTarget" android:layout_height="wrap_content" android:inputType="number" android:textSize="15dp" android:layout_x="282dp" android:layout_y="185dp" android:layout_width="54dp">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:textSize="18dp" android:layout_height="wrap_content" android:id="@+id/textScurTimes" android:text="当前" android:layout_x="342dp" android:layout_width="wrap_content" android:layout_y="196dp"></TextView>
+	<ProgressBar android:id="@+id/p1" style="?android:attr/progressBarStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="13dp" android:layout_y="291dp"></ProgressBar>
+</AbsoluteLayout>

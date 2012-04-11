@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/modifyback" android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <ImageView android:src="@drawable/helpcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="38dp" android:layout_y="19dp" android:id="@+id/imamodifycard"></ImageView>
+<ScrollView android:fadingEdge="vertical" android:scrollbars="vertical" android:layout_x="282dp" android:layout_y="24dp" android:layout_width="156dp" android:layout_height="221dp">
+    <TextView android:id="@+id/description1" android:layout_width="fill_parent" android:paddingTop="5dip" android:textColor="#071907" android:layout_height="match_parent" 
+    android:text="帮助\n[说明：程序为本人JAVA程序设计的期末项目，改项目目前仅用于测试.]\n\n程序提供简易的单词背诵功能，使用者目前可以配合有道词典使用
+    从有道词典导出单词本，放在assets目录下，通过程序设置导入单词本。\n\n软件特点：从传统的卡片记单词中吸取灵感，使用者可以灵活选择单词，并且在小憩时
+    进行单词背诵。\n\n下一版更新：提供随机排序，提供自定义添加单词，提供单词备注，提供记事本功能,提供联网查询">
+    </TextView>
+</ScrollView>    
+</AbsoluteLayout>
